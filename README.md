@@ -2,7 +2,6 @@
 Creamy installation module
 
 
-
 ## reset system
 ```
 pacman -Syy git --noconfirm
