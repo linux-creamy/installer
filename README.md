@@ -1,0 +1,2 @@
+# makeloc
+full installation package
