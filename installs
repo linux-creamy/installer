@@ -1,12 +1,12 @@
 #!/bin/bash
 
-appdir=/install/scripts/chroot
+appdir=/install/scripts
 
 
 ## CONFIGURE
-vim $appdir/config &&
-source $appdir/packer
-source $appdir/config
+vim $appdir/chroot/config &&
+source $appdir/chroot/packer
+source $appdir/chroot/config
 
 
 
@@ -65,7 +65,7 @@ fi
 
 # DISCONFIG
 cp -fr $appdir/config/* /mnt &&
-cp -fr $appdir/chroot/  /mnt/post &&
+cp -fr $appdir/chroot  /mnt/post &&
 #tar -xf games.tar.gz -C /mnt/usr/pbin/
 
 
