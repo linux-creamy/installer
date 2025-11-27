@@ -3,8 +3,8 @@
 appdir=/install/scripts/chroot
 
 
+## CONFIGURE
 vim $appdir/config &&
-
 source $appdir/packer
 source $appdir/config
 
