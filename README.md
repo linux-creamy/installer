@@ -1,8 +1,9 @@
-# installer
-creamy installation package
+# Creamy Installer
+Creamy installation module
 
 
-# reset system
+
+## reset system
 ```
 pacman -Syy git --noconfirm
 ```
@@ -14,7 +15,7 @@ git clone https://github.com/linux-creamy/isomake.git  /install
 ```
 
 
-# testing build
+## testing build
 ```
 pacman -Syy git --noconfirm
 ```
