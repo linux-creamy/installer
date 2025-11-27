@@ -15,7 +15,7 @@ timedatectl set-timezone $TIMEZONE &&
 
 
 ## CONFIG
-cp -fr /post/base/* / &&
+#cp -fr /post/base/* / &&
 
 
 ## LOCALE
