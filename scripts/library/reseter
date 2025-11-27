@@ -16,15 +16,17 @@ if [[ ! -z $(findmnt --mountpoint /mnt) ]]; then
 fi
 
 
+## CREAMYSYS
 mkfs.ext4 -F -q -b 4096 $DISKPROC &&
-
-
-## MOUNTING
 mount $DISKPROC /mnt &&
 
+
+## BOOTINGUP
 mkdir -p /mnt/boot && 
 mount -o uid=0,gid=0,dmask=007,fmask=007 $DISKBOOT /mnt/boot/ &&
 
+
+## USERDATUM
 mkdir -p /mnt/home &&
 mount $DISKDATA /mnt/home &&
 
