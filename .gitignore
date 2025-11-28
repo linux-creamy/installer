@@ -1,2 +1,4 @@
-/distrib/*
-/geniso/*
+distrib/*
+distrib
+packer/*
+packer
